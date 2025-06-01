@@ -1,0 +1,165 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.hero {
+  max-width: 800px;
+  width: 100%;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.tagline {
+  font-size: 1.25rem;
+  color: white;
+  margin-top: 20px;
+}
+
+.highlight {
+  font-size: 1.25rem;
+  color: #39ff14; /* neon green */
+  margin-bottom: 40px;
+}
+
+.contact {
+  border-top: 1px solid #222;
+  padding-top: 30px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.contact h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 1rem;
+  margin: 0px 0;
+}
+
+.contact a {
+  color: #39ff14;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.icon {
+  margin-right: 5px;
+  font-size: 1.2rem;
+}
+
+.x-icon {
+  width: 80px;
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: black;
+}
+
+.side-player {
+  width: 300px;
+  height: auto;
+  margin-left: 40px;
+}
+
+@media (max-width: 900px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .side-player {
+    margin-left: 0;
+    margin-top: 40px;
+    width: 200px;
+  }
+}
+
+.page-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: black;
+  flex-wrap: wrap;
+}
+
+.App {
+  flex: 1;
+  min-width: 300px;
+}
+
+.side-player {
+  width: 30%;
+  max-width: 300px;
+  height: auto;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+@media (max-width: 900px) {
+  .page-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .side-player {
+    width: 60%;
+    margin: 30px 0 0 0;
+  }
+}
+
+.logo {
+  width: 20vw;
+  max-width: 140px;
+  height: auto;
+}
+
+.x-icon {
+  width: 10vw;
+  max-width: 80px;
+  height: auto;
+}
