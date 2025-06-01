@@ -11,6 +11,10 @@ function App() {
           <p className="highlight">Invest in player equity through blockchain technology</p>
         </header>
 
+        <section className="coming-soon">
+          <p>Something great is on the way—stay tuned.</p>
+        </section>
+
         <section className="contact">
           <h2>Contact</h2>
           <p className="contact-link">
